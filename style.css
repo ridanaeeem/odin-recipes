@@ -1,0 +1,37 @@
+/* style.css */
+
+.title {
+    font-family: Arial, Tahoma, 'Times New Roman';
+    color:black;
+    text-align: center;
+}
+
+img {
+    border: 2px solid black;
+    outline: 2px solid black;
+    outline-offset: 3px;
+    display: block;
+    margin: auto;
+}
+
+.ingredients-box {
+    /* outline: 2px solid black;
+    outline-offset: 3px; */
+    font-family: Arial, Tahoma, 'Times New Roman';
+    color:black;
+}
+
+.steps-box {
+    /* outline: 2px solid black;
+    outline-offset: 3px; */
+    font-family: Arial, Tahoma, 'Times New Roman';
+    color:black;
+}
+
+.links,
+p {
+    font-family: Arial, Tahoma, 'Times New Roman';
+    color:black;
+}
+
+
