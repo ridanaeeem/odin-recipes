@@ -12,20 +12,43 @@ img {
     outline-offset: 3px;
     display: block;
     margin: auto;
+    margin-bottom: 20px;
+}
+
+.description-box {
+    /* outline: 2px solid black; */
+    font-family: Arial, Tahoma, 'Times New Roman';
+    color:black;
+    background-color: #dbcdaacf;
+    padding:10px;
+    padding-left: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px
 }
 
 .ingredients-box {
-    /* outline: 2px solid black;
-    outline-offset: 3px; */
+    /* outline: 2px solid black; */
     font-family: Arial, Tahoma, 'Times New Roman';
     color:black;
+    background-color: #dbcdaacf;
+    padding:3px;
+    padding-left: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom:10px;
 }
 
 .steps-box {
     /* outline: 2px solid black;
     outline-offset: 3px; */
     font-family: Arial, Tahoma, 'Times New Roman';
-    color:black;
+    color:black;background-color: #dbcdaacf;
+    padding:3px;
+    padding-left: 15px;
+    padding-right:15px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .links,
@@ -34,4 +57,6 @@ p {
     color:black;
 }
 
-
+body {
+    background-image: url("images/breadBackground.png");
+}
